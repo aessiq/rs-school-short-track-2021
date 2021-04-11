@@ -19,6 +19,12 @@
 
 function removeKFromList(/* l, k */) {
   throw new Error('Not implemented');
+  // const result = [];
+  // Object.values(l).forEach((value) => result.push(value));
+  // result.forEach((item, index) => {
+  //   if (item === k) result.splice(index, 1);
+  // });
+  // return result;
 }
 
 module.exports = removeKFromList;
